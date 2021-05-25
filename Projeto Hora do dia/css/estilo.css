@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(../imagens/manhaBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding: 20px 0px;
+    width: 80%;
+    border-radius: 100%;
+}
