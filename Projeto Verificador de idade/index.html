@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="author" content="Matheus Costa - https://github.com/matheusz98">
+    <title>Verificador de idade</title>
+</head>
+<body>
+    
+    <div class="fullscreen">
+        <video src="imagens/fundo.mp4" autoplay muted loop></video>
+        <h1>Verificador de idade</h1>
+        <section class="container">
+            
+                <h2>Ano de nascimento: </h2>
+                <input type="number" name="txtano" id="txtano" min="0">
+                
+                <h2>Sexo: </h2>
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label></br>
+                <input type="button" value="Verificar" onclick="verificar()">
+
+                <div id="res"></div>
+        </section>
+        </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
